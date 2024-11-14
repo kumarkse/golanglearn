@@ -11,50 +11,45 @@ Go is a tool for managing Go source code.
 
 Usage:
 
-        go <command> [arguments]
+        go <command> [arguments]  for documentation
 
-The commands are:
+case sensitive
 
-        bug         start a bug report
-        build       compile packages and dependencies
-        clean       remove object files and cached files
-        doc         show documentation for package or symbol
-        env         print Go environment information
-        fix         update packages to use new APIs
-        fmt         gofmt (reformat) package sources
-        generate    generate Go files by processing source
-        get         add dependencies to current module and install them
-        install     compile and install packages and dependencies
-        list        list packages or modules
-        mod         module maintenance
-        work        workspace maintenance
-        run         compile and run Go program
-        telemetry   manage telemetry data and settings
-        test        test packages
-        tool        run specified go tool
-        version     print Go version
-        vet         report likely mistakes in packages
+var varname type = _ _
+varname := _ _  (this declaration not aloowed when declaring outside a function)
 
-Use "go help <command>" for more information about a command.
+var smallval uint8 -> 0 to 255 only allowed
 
-Additional help topics:
+uint8: 8-bit unsigned integers (0 to 255)
+uint16: 16-bit unsigned integers (0 to 65535)
+uint32: 32-bit unsigned integers (0 to 4294967295)
+uint64: 64-bit unsigned integers (0 to 18446744073709551615)
+int8: 8-bit signed integers (−128 to 127)
+int16: 16-bit signed integers (−32768 to 32767)
+int32: 32-bit signed integers (−2147483648 to 2147483647)
+int64: 64-bit signed integers (−9223372036854775808 to 9223372036854775807)
 
-        buildconstraint build constraints
-        buildmode       build modes
-        c               calling between Go and C
-        cache           build and test caching
-        environment     environment variables
-        filetype        file types
-        go.mod          the go.mod file
-        gopath          GOPATH environment variable
-        goproxy         module proxy protocol
-        importpath      import path syntax
-        modules         modules, module versions, and more
-        module-auth     module authentication using go.sum
-        packages        package lists and patterns
-        private         configuration for downloading non-public code
-        testflag        testing flags
-        testfunc        testing functions
-        vcs             controlling version control with GOVCS
+float32: IEEE-754 32-bit floating-point numbers  i.e 6 decimal points
+float64: IEEE-754 64-bit floating-point numbers  i.e 14 points
 
-Use "go help <topic>" for more information about that topic.
+complex64: Complex numbers with float32 real and imaginary parts
+complex128: Complex numbers with float64 real and imaginary parts
+
+byte: Alias for uint8
+rune: Alias for int32
+
+default value is zero 0
+
+variable name with initial capital is public by nature
+
+while taking input we have:
+varname , _  := reader.Read(type).......
+here  , _ is the err 
+
+
+you need to trim space before converting the inputted value so as to remove the \n present in end
+
+GOOS="windows" go build   ->  build exe file for windows
+
+garbage collection in runtime package in doc
+
