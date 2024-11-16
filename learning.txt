@@ -53,3 +53,6 @@ GOOS="windows" go build   ->  build exe file for windows
 
 garbage collection in runtime package in doc
 
+NO classes so no inheritence,super,parent,child...
+so we have struct
+
