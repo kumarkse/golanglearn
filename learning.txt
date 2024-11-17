@@ -56,3 +56,37 @@ garbage collection in runtime package in doc
 NO classes so no inheritence,super,parent,child...
 so we have struct
 
+NO ++i
+
+NO while loop , substituted the keyword while by for , ! thats int16
+
+No nested function ,  but ananymous func allowed
+
+defer keyword what it does is that it instaed of line by line by line execution , the line which has defered keyword mentioned is executed at the last
+and in opposite order
+
+panic(err) shuts down the prgram executio and shows the error in terminal
+
+HTTP package for web help
+
+readResponse and respomseWritw does not close the connection
+
+type Response struct {
+StatusCode
+ProtoMajor
+ProtoMinor
+Request.Method
+TransferEncoding
+Trailer
+Body
+ContentLength
+Header, values for non-canonical keys will have unpredictable behavior
+}
+
+
+
+
+
+
+
+

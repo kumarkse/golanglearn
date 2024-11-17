@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-func allds() {
+func main() {
 
 	// array
 	var list [5]int //compulsary number definintion
@@ -77,6 +77,6 @@ func allds() {
 
 	/**********************************************************************************/
 
-	
+
 
 }

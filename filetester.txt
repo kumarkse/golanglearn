@@ -1,0 +1,6 @@
+a
+beforec
+decimal
+end
+f
+g

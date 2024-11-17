@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func structbase() {
+func main() {
 	type User struct {
 		Name    string
 		Roll_no int
