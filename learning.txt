@@ -84,6 +84,10 @@ Header, values for non-canonical keys will have unpredictable behavior
 }
 
 
+in Go , files in same directory should have same package name and for a file havinga mmain function , it must have a package main
+
+for printf:
+        %d integer ,  %f float , %T for type printing , %s for string
 
 
 

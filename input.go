@@ -14,4 +14,10 @@ func trial1() {
 	fmt.Println(input)
 	fmt.Printf("type is %T", input)
 
+	/***************************************************************/
+
+	var ip string 
+	fmt.Scan(&ip)
+
+
 }
