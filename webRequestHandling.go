@@ -7,10 +7,11 @@ import (
 )
 
 const urll = "https://www.iitgoa.ac.in/~nehak/example.html"
+const urls = "https://jsonplaceholder.typicode.com/todos/1"
 
 func main() {
 	fmt.Println("accessing web request")
-	response, err := http.Get(urll)
+	response, err := http.Get(urls)
 
 	if err != nil {
 		panic(err)
@@ -29,6 +30,6 @@ func main() {
 	fmt.Printf("%v",response.StatusCode)
 
 
-
+	/********************************************/
 
 }

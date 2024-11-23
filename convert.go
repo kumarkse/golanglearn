@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func conv() {
+func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 	ip, _ := reader.ReadString('\n')
@@ -23,4 +23,7 @@ func conv() {
 	} else {
 		fmt.Println(newnum + 23)
 	}
+
+	sttr := string(int(newnum))
+	fmt.Printf("%T",sttr)
 }

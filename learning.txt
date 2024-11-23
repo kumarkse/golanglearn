@@ -89,7 +89,23 @@ in Go , files in same directory should have same package name and for a file hav
 for printf:
         %d integer ,  %f float , %T for type printing , %s for string
 
+to read single non spaced values , use scanf
+else use bufio
 
+In Switch case , case can contain multiple comma seperated values
+
+in Map , when accesing a key vaue , 2 things are returned : value for the key and its existence
+
+Strings is the library for the string ds
+
+For date and time , 
+        date -> 02
+        month-> 01
+        year -> 2006
+        day  -> Monday
+        hrs  -> 15
+        min  -> 04
+        sec  -> 05
 
 
 

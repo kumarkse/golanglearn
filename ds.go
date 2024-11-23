@@ -69,6 +69,19 @@ func main() {
 	fmt.Println(ds1[1], ds1[2])
 	delete(ds1, 1)
 	fmt.Println(ds1)
+	value,exists := ds1[2]
+
+	fmt.Println(value,exists)
+
+
+	ds2 := map[int]string {
+		1:"bob",
+		2:"bobby",
+		3:"cappy",
+	}
+
+	fmt.Println(ds2)
+
 	reader2 := bufio.NewReader(os.Stdin)
 	scanner, _ := reader2.ReadString('\n')
 	// str := "11"
@@ -77,6 +90,13 @@ func main() {
 
 	/**********************************************************************************/
 
+	valu:=90
+	var ptr * int= &valu
+	fmt.Println(ptr)
+
+	pttr := &valu
+
+	fmt.Println(pttr)
 
 
 }

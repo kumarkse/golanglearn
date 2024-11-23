@@ -24,4 +24,4 @@ def poster():
     return jsonify({'message':f'you updated the value to {val}'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
