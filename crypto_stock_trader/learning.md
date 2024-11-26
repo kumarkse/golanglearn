@@ -30,3 +30,10 @@ com gives control over the relative weighting of recent vs. past data.Balances t
 half life Defines the time it takes for the weight of a data point to reduce to half its original value.Intuitive when thinking in terms of "how quickly" the influence of old data decays.
 alpha 𝜆  Directly specifies the smoothing constant, controlling the decay rate of older data.
 
+
+****************************************************************************************************************************************************
+
+BOOK : Machine learning for algorithmic trading 
+
+ch1 :
+
