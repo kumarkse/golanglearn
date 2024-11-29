@@ -33,7 +33,33 @@ alpha 𝜆  Directly specifies the smoothing constant, controlling the decay rat
 
 ****************************************************************************************************************************************************
 
-BOOK : Machine learning for algorithmic trading 
+BOOK : Machine learning for algorithmic trading (1-294)
 
-ch1 :
+few sample data sources that we will source and work with include, but are not limited to:
+• Nasdaq ITCH order book data
+• Electronic Data Gathering, Analysis, and Retrieval (EDGAR) SEC filings
+• Earnings call transcripts from Seeking Alpha
+• Quandl daily prices and other data points for over 3,000 US stocks
+• International equity data from Stooq and using the yfinance library
+• Various macro fundamental and benchmark data from the Federal Reserve
+• Large Yelp business reviews and Twitter datasets
+• EUROSAT satellite image data
+
+
+ch1 :   1-19
+
+fundamental law of active management
+alternative trading systems (ATS)
+electronic communication networks (ECNs)
+Dark pools
+Direct market access (DMA)
+how is high-frequency trading (HFT) profitable
+arbitrage trading , Momentum ignition , Order anticipation
+HFT by crowdsourcing algorithms
+efficient market hypothesis (EMH)
+
+**********************************************************************************
+
+ch2 :   21-58
+
 
