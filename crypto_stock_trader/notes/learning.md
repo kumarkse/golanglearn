@@ -24,6 +24,7 @@ coding trading strategies using the Algorithm API.
 
 
 
+
 : Its best to use these while using moving average exponential -> span(n-day moving average exponential),centre of mass(C=(S−1)/2) ,
 span provides an intuitive way to think about how many observations are significantly weighted in the EWMA. Directly tied to the idea of a "lookback period.
 com gives control over the relative weighting of recent vs. past data.Balances the influence of older vs. newer data by specifying where the "center of mass" of the weights lies.
@@ -61,5 +62,23 @@ efficient market hypothesis (EMH)
 **********************************************************************************
 
 ch2 :   21-58
+
+eXtensible Business Reporting Language (XBRL)
+electronic Financial Information eXchange (FIX) protocol
+AlgoSeek
+
+
+![alt text](image.png)
+
+pandas-datareader
+https://www.livecoinwatch.com/tools/api
+Quantopian
+Zipline
+quantRocket
+Quandl
+
+
+**********************************************************************************
+ch3 : 59 - 80
 
 
