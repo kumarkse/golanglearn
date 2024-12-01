@@ -77,6 +77,8 @@ deploy -> new stage -> name : dev -> desc:developmt
 
 now in left click on usgae plans and select or create usgae plan , add our stage dev and add api key
 
+pip install -t . requests
+
 
 ![alt text](image-10.png)
 

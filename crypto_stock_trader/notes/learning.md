@@ -82,3 +82,25 @@ Quandl
 ch3 : 59 - 80
 
 
+web scraping using beautifulsoup is not alone sufficient coz data also gets dynamically loaded
+hence we need to get data just like a browser loads it -> hence we use 
+Selenium
+Scrapy & Splash
+
+
+**********************************************************************************
+ch4 : 81 - 120
+
+
+alpha factors are transformation of raw data that aim to predict asset price movements
+numpy-pandas-zipline-TaLib
+kalman filters  ,  wavelets , alphalens , pyfolio
+
+• QuantConnect 
+• WorldQuant 
+• Alpha Trading Labs  
+• The Python Algorithmic Trading Library (PyAlgoTrade)  
+• pybacktest 
+• ultrafinance 
+• Trading with Python 
+• Interactive Brokers 
