@@ -132,3 +132,24 @@ PyPortfolioOpt
 **********************************************************************************
 ch6 : 147 - 172 
 
+Unsup Learning for HRP
+returns of many individual securities are often driven by a relatively small number of underlying influences, such as market trends, economic factors, or sector performance.
+Identifying latent topics in a body of documents
+data augumentation using GAN architechture
+        1. Frame the problem, identify a target metric, and define success.
+        2. Source, clean, and validate the data.
+        3. Understand your data and generate informative features.
+        4. Pick one or more machine learning algorithms suitable for your data.
+        5. Train, test, and tune your models.
+        6. Use your model to solve the original problem.
+Bhatia and Vandana (2010)
+Wager and Athey 2019
+heteroskedasticity
+advances in financial machine learning (2018) 
+How to Figure out CrossValidation when the financial data is sequential
+YellowBrick library
+
+
+
+**********************************************************************************
+ch7 : 173 - 219
