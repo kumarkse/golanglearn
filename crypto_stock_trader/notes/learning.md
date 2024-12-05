@@ -153,3 +153,11 @@ YellowBrick library
 
 **********************************************************************************
 ch7 : 173 - 219
+
+Gauss–Markov theorem
+fama french factor model
+Linear factor model
+Multiple TimeSeries CrossValidation
+
+**********************************************************************************
+ch8 : 221 - 254
