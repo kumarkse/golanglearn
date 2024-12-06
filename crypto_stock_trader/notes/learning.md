@@ -158,6 +158,7 @@ Gauss–Markov theorem
 fama french factor model
 Linear factor model
 Multiple TimeSeries CrossValidation
+AIC & BIC
 
 **********************************************************************************
 ch8 : 221 - 254
@@ -179,3 +180,62 @@ QuantConnect - Open Source based hosted trading platform, supporting multiple br
 
 **********************************************************************************
 ch9 : 255 - 294
+
+
+Statistical Arbitrage
+autoregressive conditional heteroskedasticity (ARCH) model
+multivariate vector autoregressive models
+Tsay (2005) Fabozzi, Focardi, and Kolm (2010)
+white noise & iid
+
+pair trading : The goal is to find two assets whose prices have historically moved together, track the spread (the difference between their prices), and, once the spread widens, buy the loser that has dropped below the common trend and short the winner
+trend,seasonality, and cycles with unsystematic noise
+
+correlograms
+
+To satisfy the stationarity assumption of many time-series models, we need to transform the original series, often in several steps        :
+        logarithm , Deflation , diferencing
+
+unit root -> something that defines non stationarity in time series
+
+ARIMA -> AR(auto correlation(p -> number of previous values its dependendent on)) + Integration + MA(moving average(q -> number of terms for rolling window statistics))
+AIC & BIC for reducing model complexity and overfitting by penalizing extra features
+ACF & PACF are correlation plots thats helps in determining sudden decrease in lags to determine diferencing
+
+Visual Inspection:
+Use ACF and PACF plots:
+AR(p): PACF cuts off at lag p.
+MA(q): ACF cuts off at lag q.
+Information Criteria:
+Fit different ARMA models (e.g., ARMA(0,0), ARMA(1,1), ARMA(2,2)) and select the one with the lowest AIC or BIC.
+Diagnostic Checking:
+Check residuals for white noise behavior and ensure no autocorrelation remains.
+Cross-validation:
+Use training/test sets to evaluate the forecast accuracy.
+
+p statistics -> autoregression present or not
+q
+
+generalized autoregressive conditional heteroskedasticity (GARCH) : time series model used to estimate and forecast the volatility
+time series model for prediction and check residuals of model with arch and garch  bith using acf and pacf
+
+Granger causality
+
+ADF test for stationarity test
+
+Cointegration refers to a statistical property of a collection of time series variables that share a common long-term trend despite being non-stationary individually.
+there is a linear combination of these series that is stationary, meaning the combination has constant mean and variance over time
+Cointegration is very useful: if two or more asset price series tend to revert to a common mean, we can leverage deviations from the trend because they should imply future pricemoves in the opposite direction.
+
+Engle-Granger method is used to identify cointegration relationships between two series. It involves both of the following:
+1. Regressing one series on another to estimate the stationary long-term relationship
+2. Applying an ADF unit-root test to the regression residual
+The null hypothesis is that the residuals have a unit root and are integrated; if we can rejectit, then we assume that the residuals are stationary and, thus, the series are cointegrated
+
+rolling Kalman filter (KF) to remove some noise
+
+Getting entry and exit dates for long and short positions
+Finally, we use the set of z-scores to derive trading signals:
+1. We enter a long (short) position if the z-score is below (above) two, which implies the spread has moved two rolling standard deviations below (above) the moving average
+2. We exit trades when the spread crosses the moving average again
+
