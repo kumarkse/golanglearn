@@ -161,3 +161,21 @@ Multiple TimeSeries CrossValidation
 
 **********************************************************************************
 ch8 : 221 - 254
+
+vectorized backtesting
+BACKTRADER : python library 
+Zipline Reloaded
+![alt text](image-1.png)
+If you are considering algorithmic trading, take a look on the following alternatives:
+
+MesoSim by DeltaRay - Option backtesting service
+zipline-live2 - Fork of zipline-live which was updated to zipline v1.2
+pylivetrade - Zipline compatible library officially supported by Alpaca brokerage
+pipeline-live - Execute Pipeline enabled Zipline algorithms in Alpaca brokerage
+backtrader - Python backtesting engine with connections to multiple brokerages
+QuantConnect - Open Source based hosted trading platform, supporting multiple brokerages
+
+
+
+**********************************************************************************
+ch9 : 255 - 294
