@@ -1,4 +1,5 @@
-REQUIREMENTS : pandas ewm library
+<ul type="circle">
+<li>REQUIREMENTS : pandas ewm library
 
 The underlying market is modeled like sinusoidal function
 
@@ -21,9 +22,6 @@ Park and Irwin (2007)
 Quantopian 
 platform (Algorithm IDE), which is a Python development environment designed to help for 
 coding trading strategies using the Algorithm API.
-
-
-
 
 : Its best to use these while using moving average exponential -> span(n-day moving average exponential),centre of mass(C=(S−1)/2) ,
 span provides an intuitive way to think about how many observations are significantly weighted in the EWMA. Directly tied to the idea of a "lookback period.
@@ -239,3 +237,43 @@ Finally, we use the set of z-scores to derive trading signals:
 1. We enter a long (short) position if the z-score is below (above) two, which implies the spread has moved two rolling standard deviations below (above) the moving average
 2. We exit trades when the spread crosses the moving average again
 
+
+
+
+****************************************************************************************************************************************************
+
+BLOGS : 
+LLMs and Algorithmic Trading
+
+Monte-Carlo simulations
+hill climbing
+LLMs are a natural fit to amplify existing workflows in :
+        Feature Selection,Data Scrubbing ,Sentiment Analysis ,Code Generation , Production reporting
+LLMs for embeddings
+
+During backtesting:
+        include transaction fee as applicable
+        create a equity curve
+        basic backtest stratergy is to test 20 ma crossing 50 ma
+
+        
+****************************************************************************************************************************************************
+Backtesting and Automated Execution
+<ul>
+PITFALLS : 
+<li>timing consideration : i.e. when to execute the order and which time to check 
+<li>sizing consideration : whether the position size we admire be able to execute at the price desired
+<li>handling successive buys and sells calls
+<li>handling decion making based on existing positions 
+<li>avoid lookahead : avoid code that allows sentimenting todays prediction based on seeing tomorrows data
+<li>Incorporating Stock splits and Bonuses
+<li>Delisting 
+exchange specific data / consolidated or specific
+F&O multiple price contract
+
+data snoopong bias 
+prediction using extrapolation  - taylor series expansion
+Ornstein-Uhlenbeck” formula
+Daniel Kahneman, the Nobel Prize-winning economist, wrote in his bestseller Thinking, Fast and Slow that “formulas that assign equal weights to all the predictors are often superior, because they are not aff ected by accidents of sampling” (Kahneman, 2011).
+continous contract data
+17 page done
