@@ -276,4 +276,11 @@ prediction using extrapolation  - taylor series expansion
 Ornstein-Uhlenbeck” formula
 Daniel Kahneman, the Nobel Prize-winning economist, wrote in his bestseller Thinking, Fast and Slow that “formulas that assign equal weights to all the predictors are often superior, because they are not aff ected by accidents of sampling” (Kahneman, 2011).
 continous contract data
-17 page done
+The fact that a null hypothesis is not unique and diff erent null hypotheses can give rise to diff erent estimates of statistical signifi cance is one reason why many critics believe that hypothesis testing is a fl awed methodology
+maximum drawdown duration
+
+**DELTIX**
+**FXZONE**
+**Marketcetera**
+**activeQuant**
+
