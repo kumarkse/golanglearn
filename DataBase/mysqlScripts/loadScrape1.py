@@ -44,10 +44,16 @@ data = {}
 with open(json_path,"r") as file:
     data = json.load(file)
 
-dbcursor.execute('create table Scraped_data (id int auto_increment primary key , category varchar(50) , topic varchar(100) , content text )')
+dbcursor.execute('create table Scraped_data_1 (id int auto_increment primary key , category varchar(50) , topic varchar(250) , content mediumtext )')
 
 for category,val in data.items():
-    
+    for topic,val2 in val.items():
+        query = "insert into scraped_data(category,topic,content) values ( %s , %s , %s )"
+        try :
+            dbcursor.execute(query,(category,topic,val2["content"]))
+        except:
+            print(category , topic , len(topic) , len(val2["content"]))
+            raise("issue!")
 
 
 
