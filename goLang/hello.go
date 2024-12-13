@@ -19,12 +19,12 @@ func main() {
 	var name string = "abhi"
 	fmt.Printf("my name is : %s ", name)
 	//my name is : abhi
-
+	// IDEALLY we use %v in Printf
 	name = "abhi"
 	fmt.Printf("my name is : %T ", name)
 	//my name is : string
 	var smallvar float64 = 32.123456789101112131415
 	fmt.Println(smallvar)
-	trial1()
+	
 
 }

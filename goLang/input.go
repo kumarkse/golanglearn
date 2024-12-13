@@ -14,7 +14,7 @@ func main() {
 
 	/***************************************************************/
 
-	var ip string
+	var ip int
 	fmt.Scan(&ip)
 
 	fmt.Println(ip)

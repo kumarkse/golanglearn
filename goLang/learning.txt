@@ -40,7 +40,7 @@ rune: Alias for int32
 
 default value is zero 0
 
-variable name with initial capital is public by nature
+ ---------- variable name with initial capital is public by nature
 
 while taking input we have:
 varname , _  := reader.Read(type).......

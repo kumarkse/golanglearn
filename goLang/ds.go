@@ -23,7 +23,9 @@ func main() {
 	fmt.Println(list)
 	fmt.Println(len(list))
 	fmt.Printf("type :%T\n", list)
+
 	// slice
+	
 	var list2 = []float32{22.0, 456}
 	fmt.Println(list2)
 
