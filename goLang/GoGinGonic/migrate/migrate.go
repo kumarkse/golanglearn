@@ -1,4 +1,4 @@
-package main
+package migrate
 
 import (
 	"GoGinGonic/database"
@@ -11,7 +11,10 @@ func init() {
 	database.ConnectDb()
 }
 
-func main() {
-	database.DB.AutoMigrate(&models.Post{})
+// func main() {
+// 	database.DB.AutoMigrate(&models.Post{})
+// }
 
+func SyncDatabase() {
+	database.DB.AutoMigrate(&models.User{})
 }
