@@ -14,3 +14,39 @@ go get golang.org/x/crypto/bcrypt
 
 
 CompileDaemon -command="./GoGinGonic"     // command to start building
+
+
+
+
+
+Folder Structure  
+Folder: GoGinGonic  
+
+1. main.go  
+   - (along with go.mod, go.sum, env)  
+
+2. initializers  
+   - loadEnvVariables.go  
+     - contains function that must be initiated before program  
+
+3. database  
+   - postgresDb.go  
+     - connects function that establishes contact to local database & creates a driver to access database  
+
+4. Models  
+   - postModel.go  
+   - userModel.go  
+     - provides structure for the database to create tables  
+
+5. Migrate  
+   - migrate.go  
+     - contains AutoMigrate() function that automatically creates schema of model into database  
+
+6. Controllers  
+   - postController.go  
+   - userController.go  
+     - contains functions to be executed when specific endpoint is hit  
+
+7. Middleware  
+   - requiresAuth.go  
+     - special middleware function  
