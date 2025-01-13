@@ -1,0 +1,15 @@
+in prodigal env
+
+https://www.infura.io/
+provides way to interact with etherium nodes
+
+https://web3py.readthedocs.io/en/stable/
+python library
+
+pip install web3 
+
+https://etherscan.io/token/
+for finding a token details and all possible functions
+
+https://archive.trufflesuite.com/ganache/
+local etherium blockchain 
