@@ -13,3 +13,34 @@ for finding a token details and all possible functions
 
 https://archive.trufflesuite.com/ganache/
 local etherium blockchain 
+
+###### web3Connect.py
+## open infuria and get api key
+-> initialize infuria url , web3 , ABI and Address of a token 
+-> using fucntions in ABI , perform get operations
+
+###### ganacheTransact
+## open ganache 
+-> initialize localHost url , web3 , 2 accounts and priivate key of one of acc for send
+-> create a transaction , signit and send raw 
+
+
+###### remixToGanache.py 
+## remix ide -> compiler env -> extrernal 127.0.0.1:7545
+-> create  a contract and deploy , it would be deopoyed on your ganache
+-> using py file , get ganache url, initialize web3 , set default account to first
+-> find ABI and address of deployed contract 
+-> initialize the contract
+-> perform transactions and verify inside ganache
+
+
+####### pythonToGanacheContract.py
+# AIM : to deploy a smart contract using python
+# Issues : we dont have solidity , so we get the contract compiled from external sources like remix and get bytecode
+# ABI in web3deploy first line and bytecode in bytecode "object"
+-> using py file , get ganache url, initialize web3 , set default account to first
+-> find ABI and BYTECODE of complied contract 
+-> create a contract obj using abi and bytecode
+-> operate constructor
+-> using the contract address just created , create a contract object
+-> perform transaction
